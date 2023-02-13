@@ -3,6 +3,7 @@ from xmindparser import xmind_to_dict
 import openpyxl.styles
 import sys
 import time
+import os
 
 dataStyle = xlwt.XFStyle()
 bgColor = xlwt.Pattern()
@@ -28,7 +29,7 @@ class XMIND:
             a = xmind_to_dict(filename)
             b = a[0]['topic']['topics']
             f = xlwt.Workbook()
-            sheet = f.add_sheet('功能测试', cell_overwrite_ok=True)
+            sheet = f.add_sheet(a[0]['topic']['title'], cell_overwrite_ok=True)
             # print('a：{}'.format(a))
             # print('b：{}'.format(b))
             # print('b[0]：{}'.format(b[0]))
@@ -198,6 +199,12 @@ if __name__ == '__main__':
     filename = input('xmind路径：')
     # filename = 'C:\\Users\\firerock\\Desktop\\项目整理\\认证\\认证测试用例1.0.xmind'
     # filename = sys.argv[1]
-    XMIND.xmind_to_excel(filename)
-    print('运行完成')
-    time.sleep(2)
+    if filename.split(".") == "xmind":
+        xlsname = filename.split("xmind")[0] + "xls"
+        # print(xlsname)
+        XMIND.xmind_to_excel(filename)
+        print('运行完成')
+        os.system(xlsname)
+        time.sleep(2)
+    else:
+        print("文件格式错误")
