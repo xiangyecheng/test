@@ -1,0 +1,426 @@
+2026-10-10 13:51:18 ERROR webUI:basepage.py:22  testcase/test_home.py::TestHome::test_home (setup)页面元素找不到('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 13:51:18 ERROR webUI:basepage.py:29  testcase/test_home.py::TestHome::test_home (setup)找不到属性href,'NoneType' object has no attribute 'get_attribute'
+2026-10-10 13:51:18 ERROR webUI:basepage.py:60  testcase/test_home.py::TestHome::test_home (setup)点击元素失败，元素：('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[2]/button/span')
+2026-10-10 13:51:18 ERROR webUI:basepage.py:22  testcase/test_home.py::TestHome::test_home (setup)页面元素找不到('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 13:51:18 ERROR webUI:basepage.py:29  testcase/test_home.py::TestHome::test_home (setup)找不到属性href,'NoneType' object has no attribute 'get_attribute'
+2026-10-10 13:51:18 ERROR webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败，元素：('xpath', '//*[@id="chat-submit-button"]')
+2026-10-10 13:56:07 ERROR webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败，元素：('xpath', '//*[@id="chat-submit-button"]')
+2026-10-10 13:57:20 ERROR webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败，元素：('xpath', '//*[@id="chat-submit-button"]')
+2026-10-10 14:00:20 ERROR webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败，元素：('xpath', '//*[@id="chat-submit-button"]')
+2026-10-10 14:02:24 ERROR webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败，元素：('xpath', '//*[@id="chat-submit-button"]')
+2026-10-10 14:03:19 ERROR webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败，元素：('xpath', '//*[@id="chat-submit-button"]')
+2026-10-10 14:11:13 ERROR webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败，元素：('xpath', '//*[@id="chat-submit-button"]')
+2026-10-10 14:11:32 ERROR webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败，元素：('xpath', '//*[@id="chat-submit-button"]')
+2026-10-10 14:12:15 ERROR webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败，元素：('xpath', '//*[@id="chat-submit-button"]')
+2026-10-10 14:19:44 ERROR webUI:basepage.py:22  testcase/test_home.py::TestHome::test_home (setup)页面元素找不到('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a'),Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a43208a0]
+	chromedriver!(No symbol) [0x7ff6a43207fc]
+	chromedriver!(No symbol) [0x7ff6a431f07c]
+	chromedriver!(No symbol) [0x7ff6a431fc0f]
+	chromedriver!(No symbol) [0x7ff6a4339f06]
+	chromedriver!(No symbol) [0x7ff6a433aa3b]
+	chromedriver!(No symbol) [0x7ff6a433f4b5]
+	chromedriver!(No symbol) [0x7ff6a433f57f]
+	chromedriver!(No symbol) [0x7ff6a438f2fb]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 14:19:44 ERROR webUI:basepage.py:29  testcase/test_home.py::TestHome::test_home (setup)找不到属性href,'NoneType' object has no attribute 'get_attribute'
+2026-10-10 14:19:44 ERROR webUI:basepage.py:22  testcase/test_home.py::TestHome::test_home (setup)页面元素找不到('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[2]/button/span'),Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43342a6]
+	chromedriver!(No symbol) [0x7ff6a4380923]
+	chromedriver!(No symbol) [0x7ff6a43b8de2]
+	chromedriver!(No symbol) [0x7ff6a43b2bb2]
+	chromedriver!(No symbol) [0x7ff6a43b2342]
+	chromedriver!(No symbol) [0x7ff6a42fcc5b]
+	chromedriver!(No symbol) [0x7ff6a42fd2b2]
+	chromedriver!(No symbol) [0x7ff6a42fd8e5]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a42fc09a]
+	chromedriver!GetHandleVerifier [0x7ff6a4a81b2f+47cfbf]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 14:19:44 ERROR webUI:basepage.py:60  testcase/test_home.py::TestHome::test_home (setup)点击元素失败元素：('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[2]/button/span'),'NoneType' object has no attribute 'click'
+2026-10-10 14:19:44 ERROR webUI:basepage.py:22  testcase/test_home.py::TestHome::test_home (setup)页面元素找不到('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a'),Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43342a6]
+	chromedriver!(No symbol) [0x7ff6a4380923]
+	chromedriver!(No symbol) [0x7ff6a43b8de2]
+	chromedriver!(No symbol) [0x7ff6a43b2bb2]
+	chromedriver!(No symbol) [0x7ff6a43b2342]
+	chromedriver!(No symbol) [0x7ff6a42fcc5b]
+	chromedriver!(No symbol) [0x7ff6a42fd2b2]
+	chromedriver!(No symbol) [0x7ff6a42fd8e5]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a42fc09a]
+	chromedriver!GetHandleVerifier [0x7ff6a4a81b2f+47cfbf]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 14:19:44 ERROR webUI:basepage.py:29  testcase/test_home.py::TestHome::test_home (setup)找不到属性href,'NoneType' object has no attribute 'get_attribute'
+2026-10-10 14:19:44 ERROR webUI:basepage.py:22  testcase/test_login.py::TestLogin::test_login (setup)页面元素找不到('xpath', '//*[@id="chat-submit-button"]'),Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43342a6]
+	chromedriver!(No symbol) [0x7ff6a4380923]
+	chromedriver!(No symbol) [0x7ff6a43b8de2]
+	chromedriver!(No symbol) [0x7ff6a43b2bb2]
+	chromedriver!(No symbol) [0x7ff6a43b2342]
+	chromedriver!(No symbol) [0x7ff6a42fcc5b]
+	chromedriver!(No symbol) [0x7ff6a42fd2b2]
+	chromedriver!(No symbol) [0x7ff6a42fd8e5]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a42fc09a]
+	chromedriver!GetHandleVerifier [0x7ff6a4a81b2f+47cfbf]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 14:19:44 ERROR webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败元素：('xpath', '//*[@id="chat-submit-button"]'),'NoneType' object has no attribute 'click'
+2026-10-10 14:27:03 ERROR webUI:basepage.py:22  testcase/test_home.py::TestHome::test_home (setup)页面元素找不到('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 14:27:03 ERROR webUI:basepage.py:29  testcase/test_home.py::TestHome::test_home (setup)找不到属性href,'NoneType' object has no attribute 'get_attribute'
+2026-10-10 14:27:14 ERROR webUI:basepage.py:22  testcase/test_login.py::TestLogin::test_login (setup)页面元素找不到('xpath', '//*[@id="chat-submit-button"]'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="chat-submit-button"]"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 14:27:14 ERROR webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败元素：('xpath', '//*[@id="chat-submit-button"]'),'NoneType' object has no attribute 'click'
+2026-10-10 14:28:06 ERROR webUI:basepage.py:22  testcase/test_home.py::TestHome::test_home (setup)页面元素找不到('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 14:28:06 ERROR webUI:basepage.py:29  testcase/test_home.py::TestHome::test_home (setup)找不到属性href,'NoneType' object has no attribute 'get_attribute'
+2026-10-10 14:28:26 ERROR webUI:basepage.py:22  testcase/test_login.py::TestLogin::test_login (setup)页面元素找不到('xpath', '//*[@id="chat-submit-button"]'),HTTPConnectionPool(host='localhost', port=57796): Max retries exceeded with url: /session/e6f25b4acd08664ff936584d63f6add4/element (Caused by NewConnectionError("HTTPConnection(host='localhost', port=57796): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。"))
+2026-10-10 14:28:26 ERROR webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败元素：('xpath', '//*[@id="chat-submit-button"]'),'NoneType' object has no attribute 'click'
+2026-10-10 14:32:26 ERROR webUI:basepage.py:22  testcase/test_home.py::TestHome::test_home (setup)页面元素找不到('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 14:32:26 ERROR webUI:basepage.py:29  testcase/test_home.py::TestHome::test_home (setup)找不到属性href,'NoneType' object has no attribute 'get_attribute'
+2026-10-10 14:32:37 ERROR webUI:basepage.py:22  testcase/test_login.py::TestLogin::test_login (setup)页面元素找不到('xpath', '//*[@id="chat-submit-button"]'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="chat-submit-button"]"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 14:32:37 ERROR webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败元素：('xpath', '//*[@id="chat-submit-button"]'),'NoneType' object has no attribute 'click'
+2026-10-10 14:33:45 ERROR webUI:basepage.py:22  testcase/test_home.py::TestHome::test_home (setup)页面元素找不到('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 14:33:45 ERROR webUI:basepage.py:29  testcase/test_home.py::TestHome::test_home (setup)找不到属性href,'NoneType' object has no attribute 'get_attribute'
+2026-10-10 14:33:47 ERROR webUI:basepage.py:29  testcase/test_home.py::TestHome::test_home (setup)找不到属性href,Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a433c571]
+	chromedriver!(No symbol) [0x7ff6a433f848]
+	chromedriver!(No symbol) [0x7ff6a43e12c8]
+	chromedriver!(No symbol) [0x7ff6a43b8eda]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 14:33:57 ERROR webUI:basepage.py:22  testcase/test_login.py::TestLogin::test_login (setup)页面元素找不到('xpath', '//*[@id="chat-submit-button"]'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="chat-submit-button"]"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 14:33:57 ERROR webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败元素：('xpath', '//*[@id="chat-submit-button"]'),'NoneType' object has no attribute 'click'
+2026-10-10 14:37:10 ERROR webUI:basepage.py:22  testcase/test_home.py::TestHome::test_home (setup)页面元素找不到('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 14:37:10 ERROR webUI:basepage.py:29  testcase/test_home.py::TestHome::test_home (setup)找不到属性href,'NoneType' object has no attribute 'get_attribute'
+2026-10-10 14:37:21 ERROR webUI:basepage.py:22  testcase/test_login.py::TestLogin::test_login (setup)页面元素找不到('xpath', '//*[@id="chat-submit-button"]'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="chat-submit-button"]"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 14:37:21 ERROR webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败元素：('xpath', '//*[@id="chat-submit-button"]'),'NoneType' object has no attribute 'click'
+2026-10-10 14:45:42 ERROR webUI:basepage.py:22  testcase/test_zhome.py::TestHome::test_home (setup)页面元素找不到('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[2]/div/div/div/a"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 14:45:42 ERROR webUI:basepage.py:31  testcase/test_zhome.py::TestHome::test_home (setup)找不到属性href,'NoneType' object has no attribute 'get_attribute'

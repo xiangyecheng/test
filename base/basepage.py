@@ -14,6 +14,22 @@ class Basepage:
         self.g = globals()
         self.current_test = os.environ.get('PYTEST_CURRENT_TEST')
 
+    def find_element(self, element):
+        """获取页面元素"""
+        try:
+            return self.driver.find_element(*element)
+        except Exception as err:
+            logger.error('{}页面元素找不到{},{}'.format(self.current_test, element, err))
+
+    def get_attribute(self, element, attribute):
+        """获取元素属性"""
+        try:
+            att = self.find_element(element).get_attribute(attribute)
+            logger.info('{}找到元素属性{}'.format(self.current_test, att))
+            return att
+        except Exception as err:
+            logger.error('{}找不到属性{},{}'.format(self.current_test, attribute, err))
+
     def open_url(self, url):
         # self.service = ChromeService(executable_path='./chromedriver.exe')
         # self.driver = webdriver.Chrome(service=self.service)
@@ -40,10 +56,10 @@ class Basepage:
 
     def click(self, element):
         try:
-            self.driver.find_element(*element).click()
+            self.find_element(element).click()
             logger.info('{}点击元素：{}'.format(self.current_test,element))
         except Exception as err:
-            logger.error('{}点击元素失败，元素：{}'.format(self.current_test,element))
+            logger.error('{}点击元素失败元素：{},{}'.format(self.current_test,element, err))
 
     def switch_windows(self):
         handles = self.driver.window_handles

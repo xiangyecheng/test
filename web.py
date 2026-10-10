@@ -7,9 +7,9 @@ from page.login import Login
 import os
 import allure
 
-class Web():
+class Web:
     url = 'https://www.baidu.com/index.htm'
-    # @classmethod
+
     service = ChromeService(executable_path='./chromedriver.exe')
     driver = webdriver.Chrome(service=service)
 

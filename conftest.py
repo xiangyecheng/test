@@ -4,6 +4,7 @@ from page.login import Login
 from web import Web
 from base.basepage import Basepage
 from page import login
+from page.home import Home
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
@@ -23,10 +24,21 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 @pytest.fixture(scope="session")
 def web_driver():
     driver = Web.start()
-    yield Login(driver)
+    yield driver
     Web.quit()
 
+@pytest.fixture()
+def l_login(web_driver):
+    return Login(web_driver)
 
+@pytest.fixture()
+def h_home(web_driver):
+    return Home(web_driver)
+
+# @pytest.fixture(scope='module')
+# def web_quit():
+#     yield
+#     Web.quit()
 
 # @pytest.hookimpl(hookwrapper=True)
 # def pytest_runtest_makereport(item, call):
