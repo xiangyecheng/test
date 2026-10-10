@@ -1,5 +1,3 @@
-from importlib import import_module
-
 from page.login import Login
 from web import Web
 from base.basepage import Basepage
@@ -20,25 +18,29 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 #     page = Basepage(driver)
 #     return page
 #     # driver.quit()
+#
+# @pytest.fixture(scope="session")
+# def web_driver():
+#     driver = Web.start()
+#     yield driver
+#     driver.quit()
 
-@pytest.fixture(scope="session")
-def web_driver():
-    driver = Web.start()
+@pytest.fixture()
+def l_login(web_Browser):
+    return Login(web_Browser)
+
+@pytest.fixture()
+def h_home(web_Browser):
+    return Home(web_Browser)
+
+@pytest.fixture(scope='module')
+def web_Browser():
+    driver = Web.driver()
+    driver.get('https://www.bilibili.com/')
+    driver.maximize_window()
+    driver.implicitly_wait(10)
     yield driver
-    Web.quit()
-
-@pytest.fixture()
-def l_login(web_driver):
-    return Login(web_driver)
-
-@pytest.fixture()
-def h_home(web_driver):
-    return Home(web_driver)
-
-# @pytest.fixture(scope='module')
-# def web_quit():
-#     yield
-#     Web.quit()
+    driver.quit()
 
 # @pytest.hookimpl(hookwrapper=True)
 # def pytest_runtest_makereport(item, call):

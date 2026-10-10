@@ -530,3 +530,192 @@ Stacktrace:
 2026-10-10 14:49:30 INFO webUI:basepage.py:28  testcase/test_zhome.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1p6HC6nEAN
 2026-10-10 14:49:30 INFO webUI:basepage.py:60  testcase/test_zhome.py::TestHome::test_home (setup)点击元素：('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[2]/button/span')
 2026-10-10 14:49:32 INFO webUI:basepage.py:28  testcase/test_zhome.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1VeHQ6tEaS?trackid=web_pegasus_0.router-web-pegasus-2479516-sm4rx.1791614972158.868
+2026-10-10 15:13:53 ERROR webUI:basepage.py:22  testcase/test_home.py::TestHome::test_home (setup)页面元素找不到('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[3]/div/div/div/a'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[3]/div/div/div/a"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 15:13:53 ERROR webUI:basepage.py:31  testcase/test_home.py::TestHome::test_home (setup)找不到属性href,'NoneType' object has no attribute 'get_attribute'
+2026-10-10 15:13:53 ERROR webUI:basepage.py:22  testcase/test_home.py::TestHome::test_home (setup)页面元素找不到('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[2]/button/span'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[2]/main/div[2]/div/div[2]/button/span"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 15:13:53 ERROR webUI:basepage.py:62  testcase/test_home.py::TestHome::test_home (setup)点击元素失败元素：('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[2]/button/span'),'NoneType' object has no attribute 'click'
+2026-10-10 15:13:55 ERROR webUI:basepage.py:22  testcase/test_home.py::TestHome::test_home (setup)页面元素找不到('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[3]/div/div/div/a'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[2]/main/div[2]/div/div[1]/div[3]/div/div/div/a"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 15:13:55 ERROR webUI:basepage.py:31  testcase/test_home.py::TestHome::test_home (setup)找不到属性href,'NoneType' object has no attribute 'get_attribute'
+2026-10-10 15:13:55 ERROR webUI:basepage.py:22  testcase/test_login.py::TestLogin::test_login (setup)页面元素找不到('xpath', '//*[@id="app"]/div[2]/div[1]/div[1]/div[3]/div/div[1]/div/div[1]/div'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="app"]/div[2]/div[1]/div[1]/div[3]/div/div[1]/div/div[1]/div"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 15:13:55 ERROR webUI:basepage.py:62  testcase/test_login.py::TestLogin::test_login (setup)点击元素失败元素：('xpath', '//*[@id="app"]/div[2]/div[1]/div[1]/div[3]/div/div[1]/div/div[1]/div'),'NoneType' object has no attribute 'click'
+2026-10-10 15:13:55 ERROR webUI:basepage.py:22  testcase/test_login.py::TestLogin::test_login (setup)页面元素找不到('xpath', '/html/body/div[5]/div/div[2]/div[1]'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[5]/div/div[2]/div[1]"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 15:15:37 INFO webUI:basepage.py:28  testcase/test_home.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1zbpt6iEpQ
+2026-10-10 15:15:38 INFO webUI:basepage.py:60  testcase/test_home.py::TestHome::test_home (setup)点击元素：('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[2]/button/span')
+2026-10-10 15:15:40 INFO webUI:basepage.py:28  testcase/test_home.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1VeHQ6tEaS?trackid=web_pegasus_0.router-web-pegasus-2479516-f6fct.1791616539643.268
+2026-10-10 15:20:18 INFO webUI:basepage.py:28  testcase/test_home.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1zbpt6iEpQ
+2026-10-10 15:20:18 INFO webUI:basepage.py:60  testcase/test_home.py::TestHome::test_home (setup)点击元素：('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[2]/button/span')
+2026-10-10 15:20:20 INFO webUI:basepage.py:28  testcase/test_home.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1VeHQ6tEaS?trackid=web_pegasus_0.router-web-pegasus-2479516-gfll4.1791616820156.443
+2026-10-10 15:24:21 INFO webUI:basepage.py:28  testcase/test_home.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1zbpt6iEpQ
+2026-10-10 15:24:21 INFO webUI:basepage.py:60  testcase/test_home.py::TestHome::test_home (setup)点击元素：('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[2]/button/span')
+2026-10-10 15:24:23 INFO webUI:basepage.py:28  testcase/test_home.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1VeHQ6tEaS?trackid=web_pegasus_0.router-web-pegasus-2479516-gfll4.1791617062710.577
+2026-10-10 15:30:25 INFO webUI:basepage.py:28  testcase/test_home.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1dfaR6AE6U
+2026-10-10 15:30:25 INFO webUI:basepage.py:60  testcase/test_home.py::TestHome::test_home (setup)点击元素：('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[2]/button/span')
+2026-10-10 15:30:27 INFO webUI:basepage.py:28  testcase/test_home.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1VeHQ6tEaS?trackid=web_pegasus_0.router-web-pegasus-2479516-f6fct.1791617426875.942
+2026-10-10 15:35:00 INFO webUI:basepage.py:28  testcase/test_home.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1dfaR6AE6U
+2026-10-10 15:35:00 INFO webUI:basepage.py:60  testcase/test_home.py::TestHome::test_home (setup)点击元素：('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[2]/button/span')
+2026-10-10 15:35:02 INFO webUI:basepage.py:28  testcase/test_home.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1VeHQ6tEaS?trackid=web_pegasus_0.router-web-pegasus-2479516-f6fct.1791617701689.186
+2026-10-10 15:35:06 INFO webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素：('xpath', '//*[@id="app"]/div[2]/div[1]/div[1]/div[3]/div/div[1]/div/div[1]/div')
+2026-10-10 15:35:16 ERROR webUI:basepage.py:22  testcase/test_login.py::TestLogin::test_login (setup)页面元素找不到('xpath', '/html/body/div[5]/div/div[2]/div[1]'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[5]/div/div[2]/div[1]"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 15:39:10 INFO webUI:basepage.py:28  testcase/test_home.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1dfaR6AE6U
+2026-10-10 15:39:11 INFO webUI:basepage.py:60  testcase/test_home.py::TestHome::test_home (setup)点击元素：('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[2]/button/span')
+2026-10-10 15:39:13 INFO webUI:basepage.py:28  testcase/test_home.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1VeHQ6tEaS?trackid=web_pegasus_0.router-web-pegasus-2479516-gfll4.1791617952631.920
+2026-10-10 15:39:16 INFO webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素：('xpath', '//*[@id="app"]/div[2]/div[1]/div[1]/div[3]/div/div[1]/div/div[1]/div')
+2026-10-10 15:39:26 ERROR webUI:basepage.py:22  testcase/test_login.py::TestLogin::test_login (setup)页面元素找不到('xpath', '/html/body/div[4]/div/div[2]/div[1]'),Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div[2]/div[1]"}
+  (Session info: chrome=154.0.8037.98); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6a460a375+5805]
+	chromedriver!(No symbol) [0x7ff6a45229a0]
+	chromedriver!(No symbol) [0x7ff6a43344ad]
+	chromedriver!(No symbol) [0x7ff6a438fac1]
+	chromedriver!(No symbol) [0x7ff6a438fd8c]
+	chromedriver!(No symbol) [0x7ff6a43e33f7]
+	chromedriver!(No symbol) [0x7ff6a43e0083]
+	chromedriver!(No symbol) [0x7ff6a4381822]
+	chromedriver!(No symbol) [0x7ff6a4382633]
+	chromedriver!GetHandleVerifier [0x7ff6a4a0c181+407611]
+	chromedriver!GetHandleVerifier [0x7ff6a4a34627+42fab7]
+	chromedriver!GetHandleVerifier [0x7ff6a4a28b6e+423ffe]
+	chromedriver!GetHandleVerifier [0x7ff6a470a6be+105b4e]
+	chromedriver!(No symbol) [0x7ff6a45307c5]
+	chromedriver!(No symbol) [0x7ff6a452bc74]
+	chromedriver!(No symbol) [0x7ff6a452be04]
+	chromedriver!(No symbol) [0x7ff6a4515b6c]
+	KERNEL32!BaseThreadInitThunk [0x7ffeedb8cd87+17]
+	ntdll!RtlUserThreadStart [0x7ffeedfecaec+2c]
+
+2026-10-10 15:48:51 INFO webUI:basepage.py:28  testcase/test_home.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1dfaR6AE6U
+2026-10-10 15:48:51 INFO webUI:basepage.py:60  testcase/test_home.py::TestHome::test_home (setup)点击元素：('xpath', '//*[@id="app"]/div[2]/main/div[2]/div/div[2]/button/span')
+2026-10-10 15:48:53 INFO webUI:basepage.py:28  testcase/test_home.py::TestHome::test_home (setup)找到元素属性https://www.bilibili.com/video/BV1VeHQ6tEaS?trackid=web_pegasus_0.router-web-pegasus-2479516-f6fct.1791618533078.904
+2026-10-10 15:48:57 INFO webUI:basepage.py:60  testcase/test_login.py::TestLogin::test_login (setup)点击元素：('xpath', '//*[@id="app"]/div[2]/div[1]/div[1]/div[3]/div/div[1]/div/div[1]/div')

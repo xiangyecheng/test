@@ -4,12 +4,10 @@ from base.basepage import Basepage
 from selenium.webdriver.common.by import By
 
 class Login(Basepage):
-    but = (By.XPATH, '//*[@id="chat-submit-button"]')
+    login_but = (By.XPATH, '//*[@id="app"]/div[2]/div[1]/div[1]/div[3]/div/div[1]/div/div[1]/div')
     @allure.title('这是一个测试用例')
     def login(self):
-        self.click(self.but)
-        self.open_new_url('https://www.bilibili.com/')
-        self.switch_windows()
+        self.click(self.login_but)
         # driver.execute_script("window.open('{}');".format('https://www.bilibili.com/'))
         # Driver.get("https://www.bilibili.com/")
         # print(2/1)
