@@ -1,0 +1,39 @@
+version: 1
+disable_existing_loggers: False
+formatters:
+    default:
+        format: "%(asctime)s %(levelname)s %(name)s:%(filename)s:%(lineno)d  %(message)s"
+        datefmt: "%Y-%m-%d %H:%M:%S"
+handlers:
+    # 控制台输出
+    console:
+        class: "logging.StreamHandler"
+        level: "DEBUG"
+        formatter: "default"
+        stream: "ext://sys.stdout"
+    # 文件轮转日志，单个文件上限，自动备份
+    file:
+        class: "logging.handlers.RotatingFileHandler"
+        level: "INFO"
+        formatter: "default"
+        filename: "logs/info.log"
+        maxBytes: 2097152
+        backupCount: 3
+        encoding: "utf-8"
+    error_file:
+        class: "logging.handlers.RotatingFileHandler"
+        level: "ERROR"
+        formatter: "default"
+        filename: "logs/error.log"
+        maxBytes: 2097152
+        backupCount: 3
+        encoding: "utf-8"
+loggers:
+    webUI:
+        handlers: ["file", "error_file"]
+        level: "DEBUG"
+        propagate: False  # 不向上传递给root logger
+## 根logger
+#root:
+#    handlers: ["console"]
+#    level: "INFO"
